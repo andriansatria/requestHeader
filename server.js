@@ -21,5 +21,4 @@ app.get('/api/whoami', function(req, res) {
     }
     res.send(result);
 });
-
 app.listen(8080);
